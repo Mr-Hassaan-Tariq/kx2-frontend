@@ -1,0 +1,151 @@
+* {
+    text-decoration: none;
+}
+
+.mainBox {
+    height: '100%';
+    background: #f12711;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left,
+            #f5af19,
+            #f12711);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left,
+            #f5af19,
+            #f12711);
+}
+
+.bottomBox {
+
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    margin-top: -10px;
+    color: #fff;
+}
+
+.bottomBox h3 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.bottomBox p {
+    width: 100%;
+    text-align: center;
+}
+
+.sideBox {
+    width: 30%;
+}
+
+.imgAndForm {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formBox {
+    width: 30%;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px 2px rgb(190, 190, 190);
+    margin-bottom: 12%;
+}
+
+.formBox h2 {
+    /* border: 1px solid red; */
+    text-align: center;
+    color: #f12711;
+    margin: 0px;
+}
+
+.formBox section {
+    /* width: 80%; */
+    text-align: left;
+    margin: 0 auto;
+    margin: 20px 0;
+    width: 90%;
+}
+
+.formBox section input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    outline: none;
+    /* border-color: lightgray; */
+    border: 1px solid #f12711;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+}
+
+.formBox section p {
+    text-align: start;
+    margin-left: 50px;
+}
+
+.formBox button {
+    display: block;
+    margin: 0px;
+    padding: 10px 5px;
+    width: 200px;
+    background: #f12711;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left,
+            #f5af19,
+            #f12711);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left,
+            #f5af19,
+            #f12711);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 0px;
+    /* font-weight: 600; */
+    letter-spacing: 0.08em;
+}
+
+.formBox button:hover {
+    border: 1px solid #f12711;
+    background-color: #ffffff !important
+}
+
+
+@media only screen and (max-width: 700px) {
+    .mainBox {
+        height: 180vh;
+    }
+
+    .bottomBox {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .imgAndForm {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formBox {
+        width: 70%;
+        margin-top: 20px;
+        padding: 20px 10px;
+    }
+
+    .sideBox {
+        width: 50%;
+    }
+}

@@ -1,0 +1,7 @@
+.changeColor{
+  background: -webkit-linear-gradient(
+    to left,
+    #f5af19,
+    #f12711
+  );
+}

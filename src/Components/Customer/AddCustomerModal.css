@@ -1,0 +1,45 @@
+.CustModal{
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 20px;
+    max-width: 120%;
+}
+
+.modalhead{
+    background: linear-gradient(
+        to left,
+        #f5af19,
+        #f12711
+      );
+      color: white;
+}
+
+.text-head{
+    padding-top: 5px;
+    color: #f5af19;
+}
+
+.addEmpl{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 65vh;
+    padding: 10px;
+}
+
+.cancelbtn{
+    padding: 5px;
+    width: 7%;
+    background-color: #f12711;
+    color: white;
+}
+
+.savebtn{
+    padding: 5px;
+    width: 7%;
+    background: linear-gradient(
+        to left,
+        #f5af19,
+        #f12711
+      );
+    color: white;
+}

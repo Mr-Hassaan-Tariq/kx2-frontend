@@ -1,0 +1,55 @@
+.WarehouseModal {
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 20px;
+}
+
+.warehousemodalhead {
+    background: linear-gradient(to left,
+            #f5af19,
+            #f12711);
+    color: white;
+}
+
+.text-head {
+    padding-top: 5px;
+    color: #f5af19;
+}
+
+.addWarehouse {
+    padding: 10px;
+}
+
+.cancelbtn{
+    padding: 5px;
+    width: 10%;
+    background-color: #f12711;
+    color: white;
+}
+
+.savebtn{
+    padding: 5px;
+    width: 10%;
+    background: linear-gradient(
+        to left,
+        #f5af19,
+        #f12711
+      );
+    color: white;
+}
+
+/* input[type=radio]#Public_Warehouse {
+    accent-color: #f12711;
+}
+
+input[type=radio]#Private_Warehouse {
+    accent-color: #f12711;
+}
+
+input[type=radio]#Smart_Warehouse {
+    accent-color: #f12711;
+}
+
+input[type=radio]#Cold_Warehouse {
+    accent-color: #f12711;
+} */
